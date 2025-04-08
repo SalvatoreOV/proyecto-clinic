@@ -32,7 +32,6 @@ export default {
     '@nuxtjs/auth-next'
   ],
   axios: {
-    // baseURL: process.env.baseURL || 'https://backend-node-computo-coronilla-frb7gpcdc7hng9fq.canadacentral-01.azurewebsites.net/api'
     baseURL: process.env.baseURL || 'http://localhost:5050/api'
   },
   auth: {
